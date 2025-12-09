@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stodwears</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stodwears — Original Streetwear</title>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<nav>
-    <div>Stodwears</div>
-    <div>
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="cart.html">Cart</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
+<nav class="container">
+  <div class="brand">Stodwears</div>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="cart.html">Cart</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 
-<header>
-    <h1>Welcome to Stodwears</h1>
-    <p>Your original streetwear brand</p>
-    <a href="shop.html"><button>Shop Now</button></a>
+<header class="hero">
+  <div class="container">
+    <h1>Stodwears — Streetwear with edge</h1>
+    <p class="muted">Small-batch designs. Printed & shipped on demand.</p>
+    <a class="btn" href="shop.html">Shop the Drop</a>
+  </div>
 </header>
+
+<section class="container" style="padding:28px 0">
+  <h2 style="margin:0 0 12px">Featured</h2>
+  <div id="product-grid" class="grid"></div>
+</section>
+
+<footer>
+  <div class="container">
+    <small>© 2025 Stodwears. All rights reserved. — <a href="about.html">About</a> · <a href="contact.html">Contact</a></small>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
 </body>
 </html>
