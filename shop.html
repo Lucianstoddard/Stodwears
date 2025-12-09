@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop - Stodwears</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<nav>
+    <div>Stodwears</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">Cart</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<h2 style="text-align:center; padding:20px;">Shop</h2>
+
+<div class="product-grid" id="product-grid">
+    <div class="product-card">
+        <img src="images/products/product1.jpg" alt="Product 1" width="100%">
+        <h3>Hoodie</h3>
+        <p>$40</p>
+        <button onclick='addToCart({name:"Hoodie", price:40})'>Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/products/product2.jpg" alt="Product 2" width="100%">
+        <h3>T-Shirt</h3>
+        <p>$25</p>
+        <button onclick='addToCart({name:"T-Shirt", price:25})'>Add to Cart</button>
+    </div>
+</div>
+
+</body>
+</html>
