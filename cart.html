@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cart - Stodwears</title>
-<link rel="stylesheet" href="css/styles.css">
-<script src="js/app.js" defer></script>
-</head>
-<body>
-<nav>
-    <div>Stodwears</div>
-    <div>
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="cart.html">Cart</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</nav>
-
-<h2 style="text-align:center; padding:20px;">Your Cart</h2>
-
-<div id="cart-items" style="padding:20px;">
-    <!-- JS will render cart items here -->
+<div class="product-card">
+    <img src="images/products/product1.jpg" alt="Hoodie" width="100%">
+    <h3>Hoodie</h3>
+    <p>$40</p>
+    <a href="https://www.printful.com/checkout/your-product-link" target="_blank">
+        <button>Buy Now</button>
+    </a>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', renderCart);
-</script>
-</body>
-</html>
